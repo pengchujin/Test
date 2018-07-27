@@ -1,4 +1,4 @@
-import { resolvers } from "resolvers";
+import { resolvers } from "./resolvers";
 import { makeExecutableSchema } from "graphql-tools";
 import * as fs from "fs"
 import * as path from "path"

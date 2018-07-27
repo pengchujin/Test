@@ -1,7 +1,7 @@
-import { User } from "entities/user"
+import { User } from "../entities/user"
 import * as R from "ramda"
-import * as Code from "util/code"
-import { ensureUser } from "util/authentication"
+import * as Code from "../util/code"
+import { ensureUser } from "../util/authentication"
 
 export async function users(root, params, ctx) {
     console.log(typeof(ctx),"==================")

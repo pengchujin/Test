@@ -1,9 +1,9 @@
-import { User } from "entities/user"
+import { User } from "../entities/user"
 import * as bcrypt from "bcrypt"
 import * as Jwt from "jsonwebtoken"
 import * as config from "../../config"
-import * as Code from "util/code"
-import { validationError } from "util/errors"
+import * as Code from "../util/code"
+import { validationError } from "../util/errors"
 // import * as R from "ramda"
 export async function signup(_obj, { username, password, code},{db}) {
     let Message = {

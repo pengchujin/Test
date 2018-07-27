@@ -2,7 +2,7 @@ import * as Koa from 'koa'
 const cors = require('@koa/cors');
 const bodyParser = require('koa-bodyparser');
 
-import { routes } from 'routes';
+import { routes } from './routes';
 
 
 
