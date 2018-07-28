@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["esnext", "esnext.asynciterable", "es5", "es6","es2017"],
+    "lib": ["es5", "es6", "esnext.asynciterable", "es2017"],
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -15,8 +15,5 @@
   ],
   "exclude": [
     "node_modules"
-  ],
-  "files": [
-    "./src/server.ts"
-]
+  ]
 }
