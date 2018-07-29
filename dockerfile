@@ -1,4 +1,4 @@
-From node:8
+FROM node:8
 
 WORKDIR /usr/src/app
 
@@ -6,7 +6,8 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY ./* /usr/src/app/
+COPY ./ /usr/src/app/
+RUN ls -la /usr/src/app/
 
 EXPOSE 3000
 
